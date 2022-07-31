@@ -5,7 +5,9 @@ function About() {
     return (
         <section>
             <h1 className='text-center mt-2'>About Me</h1>
-            <img src={coverPhoto} style={{ width: "auto", height: "auto", maxWidth: "480px", maxHeight: "640px" }} alt="me" />
+            <div className='row justify-content-center'>
+                <img src={coverPhoto} style={{ width: "auto", height: "auto", maxWidth: "480px", maxHeight: "640px" }} alt="me" />
+            </div>
             <div className='row justify-content-center'>
                 <div className='card mt-3 col-6'>
                     <div className='card-body'>

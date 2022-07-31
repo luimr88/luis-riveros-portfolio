@@ -18,26 +18,39 @@ function Nav(props) {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <span className={`nav-link active ${aboutSelected}`} aria-current="page" href="#about" onClick={() => {
+              <a className={`nav-link ${aboutSelected}`} aria-current="page" href="#about" onClick={() => {
                 setAboutSelected(true);
                 setPortfolioSelected(false);
                 setContactSelected(false);
                 setResumeSelected(false);
-              }}>About</span>
+              }}>About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio" onClick={() => {
+              <a className={`nav-link ${portfolioSelected}`} href="#portfolio" onClick={() => {
                 setAboutSelected(false);
+                setPortfolioSelected(true);
+                setContactSelected(false);
+                setResumeSelected(false);
               }}>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className={`nav-link ${contactSelected}`} href="#contact" onClick={() => {
+                setAboutSelected(false);
+                setPortfolioSelected(false);
+                setContactSelected(true);
+                setResumeSelected(false);
+              }}>Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume">Resume</a>
+              <a className={`nav-link ${resumeSelected}`} href="#resume" onClick={() => {
+                setAboutSelected(false);
+                setPortfolioSelected(false);
+                setContactSelected(false);
+                setResumeSelected(true);
+              }}>Resume</a>
             </li>
           </ul>
         </div>
