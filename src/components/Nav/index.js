@@ -1,20 +1,49 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
-function Navigation() {
+
+function Nav(props) {
+  const {
+    setAboutSelected,
+    aboutSelected,
+    setPortfolioSelected,
+    portfolioSelected,
+    setContactSelected,
+    contactSelected,
+    setResumeSelected,
+    resumeSelected
+  } = props;
   return (
-    <Navbar bg="light" expand="md">
-      <Navbar.Brand href="#home" className="ms-2">Luis' Portfolio</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-end" style={{ width: "100%" }}>
-          <Nav.Link href="#about-me">About Me</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
-        </Nav>       
-      </Navbar.Collapse>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg bg-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#home">Navbar</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <span className={`nav-link active ${aboutSelected}`} aria-current="page" href="#about" onClick={() => {
+                setAboutSelected(true);
+                setPortfolioSelected(false);
+                setContactSelected(false);
+                setResumeSelected(false);
+              }}>About</span>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#portfolio" onClick={() => {
+                setAboutSelected(false);
+              }}>Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 
-export default Navigation
+export default Nav
