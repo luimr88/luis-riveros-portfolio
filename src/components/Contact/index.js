@@ -8,15 +8,15 @@ function Contact() {
                     <h3 className="card-header p-0 text-center">Contact Me</h3>
                     <div className="card-body">
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label text-start">Name:</label>
+                            <label htmlFor="exampleFormControlInput1" className="form-label text-start">Name:</label>
                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label text-start">Email address:</label>
+                            <label htmlFor="exampleFormControlInput1" className="form-label text-start">Email address:</label>
                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlTextarea1" className="form-label">Message:</label>
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message:</label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         

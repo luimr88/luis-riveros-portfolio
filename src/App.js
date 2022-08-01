@@ -1,10 +1,12 @@
-import './App.css';
+
 import React, { useState } from 'react';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import './App.css';
+import  './index.css'
 import Header from './components/Header';
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
   return (
-    <div className="">
+    <div className="bg-color">
       <Header
         aboutSelected={aboutSelected}
         setAboutSelected={setAboutSelected}
