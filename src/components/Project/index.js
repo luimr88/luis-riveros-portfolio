@@ -38,8 +38,6 @@ function Project(props) {
                     </div>
                 </div>
             </div>
-
-
         </section>
     )
 }
