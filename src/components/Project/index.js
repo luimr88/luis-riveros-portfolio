@@ -62,7 +62,7 @@ function Project(props) {
                 </div>
                 <div className="d-flex flex-wrap justify-content-between">
                     {projects.map((project) => (
-                        <div className="card mb-3 col-md-6 col-sm-12 col-12" style={{ maxWidth: "640px" }} key={project.id}>
+                        <div className="shadow-lg card mb-3 col-md-6 col-sm-12 col-12" style={{ maxWidth: "640px" }} key={project.id}>
                             <img src={require(`../../assets/images/${project.projectImage}.png`)} className="card-img-top" id="image_img" alt="portfolio thumbnail"></img>
                             <div className="image__overlay image__overlay--primary">
                                 <a className="image__title" href={project.deployedLink} target="blank">{project.name}</a>

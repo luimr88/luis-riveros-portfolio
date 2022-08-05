@@ -40,13 +40,13 @@ function Contact() {
     }
     return (
         <section>
-            <div className="row justify-content-center mt-3">
-                <div className="card col-sm-6 p-0">
-                    <h3 className="card-header p-0 text-center">Contact Me</h3>
+            <div className="row justify-content-center mt-3 m-0">
+                <div className="shadow-lg card col-sm-6 p-0">
+                    <h3 className="card-header p-0 text-center" style={{backgroundColor: "#cad2c5", color: "#264653" }}>Contact Me</h3>
                     <form id="contact-form" onSubmit={handleSubmit}>
-                        <div className="card-body">
+                        <div className="card-body rounded" style={{backgroundColor: "#ffffff"}}>
                             <div className="mb-3">
-                                <label htmlFor="name" className="form-label text-start">Name:</label>
+                                <label htmlFor="name" className="form-label text-start" style={{color: "#264653"}}>Name:</label>
                                 <input 
                                 type="text" 
                                 className="form-control" 
@@ -59,7 +59,7 @@ function Contact() {
                                 ></input>
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="email" className="form-label text-start">Email address:</label>
+                                <label htmlFor="email" className="form-label text-start" style={{color: "#264653"}}>Email address:</label>
                                 <input 
                                 type="email" 
                                 className="form-control" 
@@ -72,7 +72,7 @@ function Contact() {
                                 ></input>
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="message" className="form-label">Message:</label>
+                                <label htmlFor="message" className="form-label" style={{color: "#264653"}}>Message:</label>
                                 <textarea 
                                 className="form-control" 
                                 value={message}
@@ -89,7 +89,7 @@ function Contact() {
                                 </div>
                             )}
 
-                            <button className="btn btn-primary" type="submit">Submit</button>
+                            <button className="btn" type="submit" style={{backgroundColor: "#264653", color: "#ffffff"}}>Submit</button>
                         </div>
                     </form>
                 </div>

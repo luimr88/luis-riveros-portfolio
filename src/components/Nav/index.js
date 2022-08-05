@@ -12,16 +12,16 @@ function Nav(props) {
     resumeSelected
   } = props;
   return (
-    <nav className="navbar navbar-expand-lg"  style={{backgroundColor: "#e9c46a"}}>
+    <nav className="navbar navbar-expand-lg" style={{backgroundColor: "#e9c46a"}}>
       <div className="container-fluid">
-        <a className="navbar-brand" href="#home">Navbar</a>
+        <h2 className="nav-title">Luis Riveros</h2>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className={`nav-link ${aboutSelected}`} aria-current="page" href="#about" onClick={() => {
+              <a className={`nav-link ${aboutSelected && 'nav-link active'}`} aria-current="page" href="#about" onClick={() => {
                 setAboutSelected(true);
                 setPortfolioSelected(false);
                 setContactSelected(false);
@@ -29,7 +29,7 @@ function Nav(props) {
               }}>About</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${portfolioSelected}`} href="#portfolio" onClick={() => {
+              <a className={`nav-link ${portfolioSelected && 'nav-link active'}`} href="#portfolio" onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(true);
                 setContactSelected(false);
@@ -37,7 +37,7 @@ function Nav(props) {
               }}>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${contactSelected}`} href="#contact" onClick={() => {
+              <a className={`nav-link ${contactSelected && 'nav-link active'}`} href="#contact" onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(false);
                 setContactSelected(true);
@@ -45,7 +45,7 @@ function Nav(props) {
               }}>Contact</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link ${resumeSelected}`} href="#resume" onClick={() => {
+              <a className={`nav-link ${resumeSelected && 'nav-link active'}`} href="#resume" onClick={() => {
                 setAboutSelected(false);
                 setPortfolioSelected(false);
                 setContactSelected(false);

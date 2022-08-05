@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
@@ -48,7 +50,15 @@ function App() {
         ) : (
           <></>
         )}
+        {resumeSelected ? (
+          <>
+            <Resume></Resume>
+          </>
+        ) : (
+          <></>
+        )}
     </main>
+    <Footer></Footer>
     </div >
   );
 }
