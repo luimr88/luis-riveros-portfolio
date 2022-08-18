@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.d1bede74.css",
-    "main.js": "/my-react-portfolio/static/js/main.f5b09473.js",
+    "main.js": "/my-react-portfolio/static/js/main.d9a300a5.js",
     "static/js/787.28d888aa.chunk.js": "/my-react-portfolio/static/js/787.28d888aa.chunk.js",
     "static/media/MarvelousGifs.png": "/my-react-portfolio/static/media/MarvelousGifs.cce214a021c0c6491ddd.png",
+    "static/media/WorldWideJerky.png": "/my-react-portfolio/static/media/WorldWideJerky.5267c91a18ee757be680.png",
     "static/media/HerosOutline.png": "/my-react-portfolio/static/media/HerosOutline.d429b2e350af02ccffff.png",
     "static/media/WeatherDash.png": "/my-react-portfolio/static/media/WeatherDash.bf78574aa2c525e91c91.png",
     "static/media/BudgetTracker.png": "/my-react-portfolio/static/media/BudgetTracker.2194bb1dcee2a25af3d3.png",
@@ -12,11 +13,11 @@
     "static/media/NoteTaker.png": "/my-react-portfolio/static/media/NoteTaker.6de7c607d5744812a41e.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.d1bede74.css.map": "/my-react-portfolio/static/css/main.d1bede74.css.map",
-    "main.f5b09473.js.map": "/my-react-portfolio/static/js/main.f5b09473.js.map",
+    "main.d9a300a5.js.map": "/my-react-portfolio/static/js/main.d9a300a5.js.map",
     "787.28d888aa.chunk.js.map": "/my-react-portfolio/static/js/787.28d888aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bede74.css",
-    "static/js/main.f5b09473.js"
+    "static/js/main.d9a300a5.js"
   ]
 }
