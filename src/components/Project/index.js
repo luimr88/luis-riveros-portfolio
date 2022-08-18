@@ -7,6 +7,14 @@ function Project(props) {
     const projects = [
         {
             id: '0',
+            name: 'World Wide Jerky',
+            description: 'Group project for an E-commerce web page for a local beef jerky company.',
+            deployedLink: 'https://worldwidejerky.herokuapp.com/',
+            github: 'https://github.com/mjzabriskie/world-wide-jerky',
+            projectImage: 'WorldWideJerky'
+        },
+        {
+            id: '1',
             name: 'Weather Dashboard',
             description: 'App using weather API that will give the user the weather based off of a city name. Also shows the 5-day forecast for the city.',
             deployedLink: 'https://luimr88.github.io/weather-dashboard/',
@@ -14,7 +22,7 @@ function Project(props) {
             projectImage: 'WeatherDash'
         },
         {
-            id: '1',
+            id: '2',
             name: 'Marvelous Gifs',
             description: 'Group project using Marvel Comics API where the user can get the bio, comics, and gifs to a Marvel character they search.',
             deployedLink: 'https://mjzabriskie.github.io/marvel-ous-gifs/',
@@ -22,7 +30,7 @@ function Project(props) {
             projectImage: 'MarvelousGifs'
         },
         {
-            id: '2',
+            id: '3',
             name: "A Hero's Outline",
             description: "Group project where a user can create an outline for writing a story using Dan Harmon's story circle concept, while being able to save story outlines to their account.",
             deployedLink: 'https://herooutline.herokuapp.com/',
@@ -30,7 +38,7 @@ function Project(props) {
             projectImage: 'HerosOutline'
         },
         {
-            id: '3',
+            id: '4',
             name: 'Password Generator',
             description: 'Web app where a user can generate a random password of different lengths, symbols, letters, and numbers.',
             deployedLink: 'https://luimr88.github.io/password-generator/',
@@ -38,7 +46,7 @@ function Project(props) {
             projectImage: 'PasswordGen'
         },
         {
-            id: '4',
+            id: '5',
             name: 'PWA Budget Tracker',
             description: 'Budget tracking app that can keep track of expenses along with a visual graph. App can be used offline.',
             deployedLink: 'https://stark-woodland-05347.herokuapp.com/',
@@ -46,7 +54,7 @@ function Project(props) {
             projectImage: 'BudgetTracker'
         },
         {
-            id: '5',
+            id: '6',
             name: 'Note Taker',
             description: 'Web app where the user is able to to enter notes, save, and delete notes on the webpage.',
             deployedLink: 'https://evening-journey-94806.herokuapp.com/',
