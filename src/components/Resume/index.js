@@ -43,7 +43,7 @@ function Resume() {
                 </div>
             </div>
             <div className="text-center mt-2">
-                <p className="text-white">To download my full resume click here: <a className="github_icon" href='https://docs.google.com/document/d/1Gpoeb3ix3S9yPBNgO4r8tM5WRPUUfWhK/edit?usp=sharing&ouid=116991899601999784603&rtpof=true&sd=true' target="blank"><FontAwesomeIcon icon={faGoogleDrive} size="2x" /></a></p>
+                <p className="text-white">To download my full resume click here: <a className="github_icon" href='https://docs.google.com/document/d/16lq8EofuKC51mleqIA4HV89cxw37Zbo2Tn2_ZV9RGpI/edit?usp=sharing' target="blank"><FontAwesomeIcon icon={faGoogleDrive} size="2x" /></a></p>
             </div>
         </section>
     )
