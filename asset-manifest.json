@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luis-riveros-portfolio/static/css/main.d1bede74.css",
-    "main.js": "/luis-riveros-portfolio/static/js/main.df394cae.js",
+    "main.js": "/luis-riveros-portfolio/static/js/main.9f266300.js",
     "static/js/787.576b7ad3.chunk.js": "/luis-riveros-portfolio/static/js/787.576b7ad3.chunk.js",
     "static/media/MarvelousGifs.png": "/luis-riveros-portfolio/static/media/MarvelousGifs.cce214a021c0c6491ddd.png",
     "static/media/WorldWideJerky.png": "/luis-riveros-portfolio/static/media/WorldWideJerky.5267c91a18ee757be680.png",
@@ -13,11 +13,11 @@
     "static/media/NoteTaker.png": "/luis-riveros-portfolio/static/media/NoteTaker.6de7c607d5744812a41e.png",
     "index.html": "/luis-riveros-portfolio/index.html",
     "main.d1bede74.css.map": "/luis-riveros-portfolio/static/css/main.d1bede74.css.map",
-    "main.df394cae.js.map": "/luis-riveros-portfolio/static/js/main.df394cae.js.map",
+    "main.9f266300.js.map": "/luis-riveros-portfolio/static/js/main.9f266300.js.map",
     "787.576b7ad3.chunk.js.map": "/luis-riveros-portfolio/static/js/787.576b7ad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bede74.css",
-    "static/js/main.df394cae.js"
+    "static/js/main.9f266300.js"
   ]
 }
